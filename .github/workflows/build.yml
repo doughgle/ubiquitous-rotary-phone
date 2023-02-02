@@ -43,3 +43,4 @@ jobs:
       # htmltest (configured in .htmltest.yml)
       - name: Test HTML
         run: htmltest
+        working-directory: content

@@ -28,7 +28,7 @@ jobs:
         working-directory: content
 
       - name: Check prose
-        run: write-good --parse */*/*.md
+        run: write-good *.md
         continue-on-error: true
         working-directory: content
 
